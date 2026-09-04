@@ -1,5 +1,5 @@
 try {
-    const response = await fetch('/html/header.html');
+    const response = await fetch('header.html');
     if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -23,7 +23,7 @@ catch (error) {
 }
 
 try {
-    const response = await fetch('/html/footer.html');
+    const response = await fetch('footer.html');
     if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
     }
