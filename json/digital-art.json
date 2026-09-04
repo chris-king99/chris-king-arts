@@ -1,42 +1,42 @@
 [
     {
         "Name" : "Sam and Nyx",
-        "Location" : "art website images/Additional Art/Art/Ditial Art/Portraits/Sam Portrait with Cat Nyx.png",
+        "Location" : "images/digital-art/Sam-Portrait-with-Cat-Nyx.png",
         "Row" : "1"
     },
     {
         "Name" : "Two Cats",
-        "Location" : "art website images/Additional Art/Art/Ditial Art/Pet Drawings/Two Cat Portrait.png",
+        "Location" : "images/digital-art/Two-Cat-Portrait.png",
         "Row" : "1"
     },
     {
         "Name" : "Shoreline",
-        "Location" : "art website images/Additional Art/Art/Ditial Art/Background Nature/Family_Photo_of_People_Walking_by_Shoreline2025.png",
+        "Location" : "images/digital-art/Family-Photo-of-People-Walking-by-Shoreline2025.png",
         "Row" : "2"
     },
     {
         "Name" : "Butterfly",
-        "Location" : "art website images/Additional Art/Art/Ditial Art/Background Nature/Flower_Bed_with Monarch_Butterfly2025.png",
+        "Location" : "images/digital-art/Flower-Bed-with-Monarch-Butterfly2025.png",
         "Row" : "2"
     },
     {
         "Name" : "Mainecoon",
-        "Location" : "art website images/Additional Art/Art/Ditial Art/Pet Drawings/3hr_Drawing_Of_A_Maincoon.png",
+        "Location" : "images/digital-art/3hr-Drawing-Of-A-Maincoon.png",
         "Row" : "2"
     },
     {
         "Name" : "Frenchie",
-        "Location" : "art website images/Additional Art/Art/Ditial Art/Pet Drawings/Frenchie Full Body.png",
+        "Location" : "images/digital-art/Frenchie-Full-Body.png",
         "Row" : "3"
     },
     {
         "Name" : "Lighthouse",
-        "Location" : "art website images/Additional Art/Art/Ditial Art/Background Nature/Background Study_Lighthouse2026.png",
+        "Location" : "images/digital-art/Background-Study-Lighthouse2026.png",
         "Row" : "3"
     },
     {
         "Name" : "Bird Humanoid",
-        "Location" : "art website images/Additional Art/Art/Ditial Art/Character Art/DND_Bird_Humanoid_Portrait2025.png",
+        "Location" : "images/digital-art/DND-Bird-Humanoid-Portrait2025.png",
         "Row" : "3"
     }
 ]
