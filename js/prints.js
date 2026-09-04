@@ -1,5 +1,5 @@
 async function loadPrints() {
-  const response = await fetch("/json/prints.json");
+  const response = await fetch("~/json/prints.json");
   const prints = await response.json();
   const printSection = document.querySelector(".prints")
   var numRows = 0;

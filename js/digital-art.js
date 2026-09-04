@@ -1,5 +1,5 @@
 async function loadPieces() {
-  const response = await fetch("/json/digital-art.json");
+  const response = await fetch("~/json/digital-art.json");
   const pieces = await response.json();
   const artSection = document.querySelector(".art")
   var numRows = 0;

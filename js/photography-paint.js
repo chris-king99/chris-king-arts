@@ -1,5 +1,5 @@
 async function loadPhotos() {
-  const response = await fetch("/json/photos.json");
+  const response = await fetch("~/json/photos.json");
   const photos = await response.json();
   var photoSection = document.querySelector(".photos");
 

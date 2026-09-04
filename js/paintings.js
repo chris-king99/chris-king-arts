@@ -1,5 +1,5 @@
 async function loadPaintings() {
-  const response = await fetch("/json/paintings.json");
+  const response = await fetch("~/json/paintings.json");
   const paintings = await response.json();
   var paintingSection = document.querySelector(".paintings");
 
