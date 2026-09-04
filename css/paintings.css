@@ -1,0 +1,48 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    row-gap: 15px;
+}
+.main-title {
+    text-align: center;
+    font-weight: 100;
+    font-size: clamp(35px, 5vw, 3em);
+}
+.main-desc {
+    text-align: center;
+}
+.paintings {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    row-gap: 80px;
+    padding: 50px 50px;
+    width: 1000px;
+}
+.paintings div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.paintings p {
+    font-size: 0.9em;
+}
+.paintings img {
+    width: 100%;
+}
+
+.free-wild-flowers {
+    grid-row: span 2;
+}
+
+@media screen and (max-width: 1100px) {
+    .paintings {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+}

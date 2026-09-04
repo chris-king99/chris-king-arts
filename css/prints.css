@@ -1,0 +1,83 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    row-gap: 15px;
+}
+.main-title {
+    text-align: center;
+    font-weight: 100;
+    font-size: clamp(35px, 5vw, 3em);
+}
+.main-desc {
+    text-align: center;
+}
+.prints {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1100px;
+    row-gap: 50px;
+    margin: 50px 0;
+}
+.prints section {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.prints div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    height: 100%;
+    max-width: min(800px, 60vw);
+}
+.prints p {
+    font-size: 0.9em;
+}
+.prints img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.row1 img {
+    max-height: 500px;
+}
+.take-care {
+    width: 500px;
+}
+.pretty-memories,
+.mom-s-memories {
+    max-width: 800px;
+}
+.row3 :nth-child(odd) p {
+    display: none;
+}
+.prints .row5 {
+    flex-direction: column;
+    row-gap: 10px;
+}
+.row5 :nth-child(1) p {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .prints .row3 {
+        flex-direction: column;
+        width: min(500px, 60vw);
+        row-gap: 10px;
+    }
+    .row3 :nth-child(2) p {
+        display: none
+    }
+    .row3 :nth-child(3) p {
+        display: block;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .prints .row1 {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}

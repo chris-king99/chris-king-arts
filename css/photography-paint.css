@@ -1,0 +1,50 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    row-gap: 15px;
+}
+.main-title {
+    text-align: center;
+    font-weight: 100;
+    font-size: clamp(35px, 5vw, 3em);
+}
+.main-desc {
+    text-align: center;
+}
+.photos {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 80px;
+    row-gap: 70px;
+    padding: 50px 50px;
+    width: 1000px;
+}
+.photos div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.photos p {
+    font-size: 0.9em;
+}
+.photos img {
+    width: 100%;
+    max-height: 550px;
+}
+
+@media screen and (max-width: 1100px) {
+    .photos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: min(60vw, 900px);
+        padding: 50px 0;
+    }
+    .photos img {
+        max-height: 700px;
+    }
+}

@@ -1,0 +1,89 @@
+main {
+    background-color: rgb(198, 195, 193);
+    padding: 40px 80px;
+}
+.introduction {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.introduction img {
+    width: 1000px;
+    height: 100%;
+    object-fit: cover;
+}
+.introduction div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-self: center;
+    box-sizing: border-box;
+    margin: 0 10%;
+}
+.introduction h1 {
+    font-weight: 100;
+    font-size: clamp(40px, 5vw, 70px);
+}
+
+.art {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.art section {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    height: min(500px, 30vw);
+}
+.art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sam-and-nyx,
+.two-cats {
+    width: 100%;
+}
+.shoreline img {
+    object-position: center bottom;
+}
+.butterfly {
+    width: 250vw;
+}
+.lighthouse img {
+    object-position: center top;
+}
+
+@media screen and (max-width: 1250px) {
+    main {
+        padding: 40px 5vw;
+    }
+    .art section {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        row-gap: 40px;
+    }
+    .art section div {
+        max-height: 600px;
+        width: auto;
+    }
+    .art img {
+        width: auto;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .introduction {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .introduction img {
+        width: 100%;
+        object-position: 60% 60%;
+    }
+}

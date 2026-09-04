@@ -1,0 +1,67 @@
+main {
+    background-color: rgb(198, 195, 193);
+    padding: 50px 5vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+.introduction {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+.introduction img {
+    width: 300px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+.introduction div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 0 10%;
+    box-sizing: border-box;
+    align-self: center;
+}
+h1 {
+    font-size: clamp(40px, 5vw, 70px);
+    font-weight: 100;
+}
+.introduction a {
+    align-self: start;
+}
+.introduction a:hover {
+    border-bottom: 1px solid var(--border-color);
+    font-weight: bold;
+}
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding: 50px 20%;
+}
+.story h1 {
+    align-self: start;
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        row-gap: 20px;
+    }
+    .introduction {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+        row-gap: 20px;
+    }
+    .introduction img {
+        align-self: center;
+        aspect-ratio: 1 / 1;
+        height: 300px;
+        object-position: center 40%;
+    }
+    .story {
+        padding: 50px;
+    }
+}
