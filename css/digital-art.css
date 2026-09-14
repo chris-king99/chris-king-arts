@@ -86,4 +86,9 @@ main {
         width: 100%;
         object-position: 60% 60%;
     }
+    .art {
+        padding-top: 0;
+        margin-top: 40px;
+    }
 }
+    
