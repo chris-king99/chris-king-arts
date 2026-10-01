@@ -87,7 +87,7 @@ main {
         object-position: 60% 60%;
     }
     .introduction div {
-        height: 500px;
+        height: 100px;
         margin-bottom: 200px;
         border: 2px solid black;
 }
