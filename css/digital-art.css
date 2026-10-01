@@ -83,8 +83,13 @@ main {
         row-gap: 40px;
     }
     .introduction img {
-        width: 20%;
+        width: 100%;
         object-position: 60% 60%;
+    }
+}
+@media screen and (max-device-width: 640px) {
+    .introduction img {
+        width: 10px;
     }
 }
     
