@@ -84,7 +84,7 @@ main {
     }
     .introduction img {
         width: 100%;
-        max-height: 10px;
+        height: 10%;
         object-position: 60% 60%;
     }
     .introduction div {
