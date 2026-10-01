@@ -84,6 +84,7 @@ main {
     }
     .introduction img {
         width: 100%;
+        height: 20px;
         object-position: 60% 60%;
     }
 }
