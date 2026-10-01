@@ -63,6 +63,9 @@ main {
 }
 
 @media screen and (max-width: 1200px) {
+    .prints {
+        width: 60%;
+    }
     .prints .row3 {
         flex-direction: column;
         width: min(500px, 60vw);
