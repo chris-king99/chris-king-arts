@@ -88,5 +88,6 @@ main {
     }
     .introduction div {
         height: 500px;
+        padding-bottom: 200px;
 }
     
